@@ -11,4 +11,8 @@ body {
   li {
     @apply font-semibold text-lg
   }
+
+  .buttonnn {
+    @apply bg-[#99A19B] p-4 h-10 text-white
+  }
 }
