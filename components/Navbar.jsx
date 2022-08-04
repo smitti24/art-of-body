@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-screen h-[140px] bg-white/90 opacity-75">
+    <div className="w-screen h-[140px] bg-white md:bg-white/90 z-10 sticky md:fixed">
       <div className="md:mx-20 flex justify-between h-full">
         <div className="flex h-full items-center">
           <Image src="/images/logo.png" width={150} height={150} alt=""></Image>
@@ -39,10 +39,18 @@ function Navbar() {
           className={
             !nav
               ? "hidden"
-              : "absolute flex flex-col w-full h-screen px-4 py-7 left-0 top-0 bg-gray-100/90 text-black"
+              : "absolute flex w-full h-screen px-4 py-7 left-0 bg-[#E6E2DA]/90 top-0 text-black"
           }
         >
-          <h1>BEACHES.</h1>
+          <div className="my-6 w-full justify-center items-center ">
+            <ul className="flex flex-col items-center w-full h-full cursor-pointer">
+              <li className="my-4">Home</li>
+              <li className="my-4">About</li>
+              <li className="my-4">Pricing</li>
+              <li className="my-4">Services</li>
+              <li className="my-4">Contact</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
