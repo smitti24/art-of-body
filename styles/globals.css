@@ -4,7 +4,10 @@
 
 body {
   background: #E6E2DA;
+  overflow-x: hidden;
 }
+
+
 
 @layer {
 
@@ -12,7 +15,7 @@ body {
     @apply font-semibold text-lg
   }
 
-  .buttonnn {
-    @apply bg-[#99A19B] p-4 h-10 text-white
+  .heading {
+    @apply text-3xl md:text-5xl font-bold
   }
 }

@@ -31,6 +31,7 @@ function Navbar() {
         window.removeEventListener("scroll", controlNavbar);
       };
     }
+    // eslint-disable-next-line
   }, [lastScrollY]);
 
   const handleNav = () => {
