@@ -13,7 +13,7 @@ function Services() {
           <div className="border-2 md:border-0 md:border-l-2">
             <div className="mt-4">
               <Image
-                src="/images/pilates-1.png"
+                src="/images/StudioA-77.png"
                 width={256}
                 height={256}
                 alt=""
@@ -39,7 +39,7 @@ function Services() {
           <div className="border-2 md:border-0 md:border-l-2">
             <div className="mt-4">
               <Image
-                src="/images/studioA-70.png"
+                src="/images/StudioA-70.png"
                 width={256}
                 height={256}
                 alt=""
@@ -65,7 +65,7 @@ function Services() {
           <div className="border-2 md:border-0 md:border-l-2">
             <div className="mt-4">
               <Image
-                src="/images/studioA-81.png"
+                src="/images/StudioA-81.png"
                 width={256}
                 height={256}
                 alt=""
@@ -91,7 +91,7 @@ function Services() {
           <div className="border-2 md:border-0 md:border-l-2">
             <div className="mt-4">
               <Image
-                src="/images/studioA-88.png"
+                src="/images/StudioA-88.png"
                 width={256}
                 height={256}
                 alt=""
