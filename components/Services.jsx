@@ -13,7 +13,7 @@ function Services() {
           <div className="border-2 md:border-0 md:border-l-2">
             <div className="mt-4">
               <Image
-                src="/images/studioA-77.png"
+                src="/images/pilates-1.png"
                 width={256}
                 height={256}
                 alt=""
