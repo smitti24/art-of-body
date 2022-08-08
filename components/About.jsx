@@ -16,7 +16,7 @@ function About() {
             width={1920}
             alt="/"
             className="max-w-[1920px] max-h-[1080px] object-contain"
-            layout="0"
+            layout=""
             objectFit="fill"
             objectPosition="center"
           />
