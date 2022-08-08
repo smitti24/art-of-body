@@ -4,7 +4,7 @@ import React from "react";
 function Services() {
   return (
     <div className="w-screen bg-white">
-      <div className="mb-10 md:my-20 md:mx-48">
+      <div className="md:mx-48">
         <div className="w-full sm:flex text-center justify-center p-12 md:p-16 heading">
           <span className="text-[#403D3B] mr-2">What{"'"}s happening at </span>
           <span className="text-[#99A19B]"> Art of Body</span>

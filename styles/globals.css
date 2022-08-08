@@ -11,6 +11,14 @@ body {
 
 @layer {
 
+  input {
+    @apply appearance-none border-b-[1px] border-gray-500 bg-transparent w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border
+  }
+
+  body {
+    @apply text-[#403D3B];
+  }
+
   li {
     @apply font-semibold text-lg
   }
@@ -18,4 +26,6 @@ body {
   .heading {
     @apply text-3xl md:text-5xl font-bold
   }
+
+
 }
