@@ -5,8 +5,7 @@ function About() {
   return (
     <div className="mx-12 md:h-full mb-10 md:my-20 md:mx-48">
       <div className="hidden w-full md:flex justify-center my-20 heading">
-        <span className="text-[#403D3B] mr-2">About </span>
-        <span className="text-[#99A19B]"> Art of Body</span>
+        <span className="text-[#403D3B] mr-2">About Art of Body </span>
       </div>
       <div className=" flex md:grid xl:grid-cols-2 md:grid-cols-1 justify-center w-full">
         <div className="hidden md:flex">
@@ -21,7 +20,7 @@ function About() {
             objectPosition="center"
           />
         </div>
-        <div className="md:bg-white">
+        <div className="md:bg-[#F8F6F0]">
           <div className="text-center md:text-left lg:my-24 lg:mx-32 md:my-10 md:mx-10">
             <p className="my-5 md:my-6">
               <b>Art of body</b> is a boutique Pilates studio in La Lucia

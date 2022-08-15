@@ -6,7 +6,7 @@ function Landing() {
     <div className="w-full h-[250px] md:h-screen relative">
       <div className="h-[250px] md:h-screen w-screen">
         <Image
-          src="/images/pilates-1.png"
+          src="/images/monster-plant.png"
           alt="Picture of the author"
           width="100%"
           height={250}

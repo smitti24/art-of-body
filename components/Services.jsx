@@ -3,11 +3,12 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="w-screen bg-white">
-      <div className="md:mx-48">
+    <div className="w-screen bg-[#F8F6F0]">
+      <div className="sm:mx-0 lg:mx-48">
         <div className="w-full sm:flex text-center justify-center p-12 md:p-16 heading">
-          <span className="text-[#403D3B] mr-2">What{"'"}s happening at </span>
-          <span className="text-[#99A19B]"> Art of Body</span>
+          <span className="text-[#403D3B] mr-2">
+            What{"'"}s happening at Art of Body
+          </span>
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-4 justify-center text-center p-4 md:p-16">
           <div className="border-2 md:border-0 md:border-l-2">
@@ -88,7 +89,7 @@ function Services() {
               </button>
             </div>
           </div>
-          <div className="border-2 md:border-0 md:border-l-2">
+          <div className="border-2 md:border-0 md:border-l-2 md:border-r-2">
             <div className="mt-4">
               <Image
                 src="/images/StudioA-88.png"

@@ -41,17 +41,18 @@ function Navbar() {
   return (
     <nav className={`md:active ${show && "md:hidden"}`}>
       <div className="w-screen h-[140px] bg-white md:bg-white/60 z-10 sticky md:fixed">
-        <div className="md:mx-20 flex justify-between h-full">
-          <div className="flex h-full items-center">
-            <Image
+        <div className="md:mx-5 flex justify-between h-full">
+          <div className="flex md:h-full items-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              loading="lazy"
+              className=" h-[250px] md:w-[300px] rounded-full ml-2"
               src="/images/logo.png"
-              width={150}
-              height={150}
               alt=""
-            ></Image>
+            />
           </div>
           <div>
-            <ul className="hidden md:flex h-full space-x-5 items-center cursor-pointer">
+            <ul className="hidden md:flex md:mr-20 h-full space-x-5 items-center cursor-pointer">
               <li>Home</li>
               <li>About</li>
               <li>Pricing</li>
